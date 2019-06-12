@@ -12,6 +12,10 @@ import lombok.NonNull;
 import org.icgc_argo.dictionary.core.model.FileTypes.FileSubType;
 import org.icgc_argo.dictionary.core.model.FileTypes.FileType;
 import org.icgc_argo.dictionary.core.model.Proposition.Propositions;
+import org.icgc_argo.dictionary.core.util.Joiners;
+
+import com.google.common.base.Optional;
+import org.icgc_argo.dictionary.core.util.Optionals;
 
 import java.util.List;
 import java.util.Set;
